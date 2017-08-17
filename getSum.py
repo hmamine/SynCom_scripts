@@ -58,3 +58,4 @@ for sampleID in samples:
 print 'Total:', total
 print '%s sequences >= %s identity to reference'%(passCount, IDENT)
 		
+
