@@ -1,4 +1,5 @@
 #!/usr/bin/python 
+#Author: Benli Chai
 #used to summarize the counts from alignment to reference and make an sample-OTU table
 import sys, string, os
 if len(sys.argv) < 5:
