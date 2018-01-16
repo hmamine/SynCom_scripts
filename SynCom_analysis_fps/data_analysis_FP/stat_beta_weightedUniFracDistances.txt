@@ -1,0 +1,60 @@
+# Matrix - highly competitive depleted
+Call:
+adonis(formula = DB.hcmat ~ config3) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs   MeanSqs F.Model      R2 Pr(>F)    
+config3    1  0.014286 0.0142862  13.053 0.36205  0.001 ***
+Residuals 23  0.025174 0.0010945         0.63795           
+Total     24  0.039460                   1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Matrix - highly sensitive depleted
+Call:
+adonis(formula = DB.hsmat ~ config3) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs   MeanSqs F.Model      R2 Pr(>F)
+config3    1  0.001201 0.0012009 0.51143 0.02175  0.772
+Residuals 23  0.054006 0.0023481         0.97825       
+Total     24  0.055207                   1.00000       
+
+# Root - highly competitive depleted
+Call:
+adonis(formula = DB.hcrot ~ config3) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs   MeanSqs F.Model      R2 Pr(>F)    
+config3    1 0.0052484 0.0052484  6.0068 0.22242  0.001 ***
+Residuals 21 0.0183484 0.0008737         0.77758           
+Total     22 0.0235967                   1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# Root - highly sensitive depleted
+Call:
+adonis(formula = DB.hsrot ~ config3) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)
+config3    1 0.0007052 0.00070519 0.71941 0.03167  0.691
+Residuals 22 0.0215650 0.00098023         0.96833       
+Total     23 0.0222702                    1.00000       
+

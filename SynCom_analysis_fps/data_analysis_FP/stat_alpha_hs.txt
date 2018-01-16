@@ -1,0 +1,34 @@
+#Observed CTU
+> kruskal.test(data=subp2$data, value ~ config3)
+
+	Pairwise comparisons using Conover's-test for multiple	
+                         comparisons of independent samples 
+
+data:  value by config3 
+
+            input   matrix-full matrix-hs root-full
+matrix-full 1.3e-07 -           -         -        
+matrix-hs   1.5e-06 0.9227      -         -        
+root-full   0.0102  0.0002      0.0025    -        
+root-hs     0.0107  8.0e-05     0.0013    0.9227   
+
+P value adjustment method: holm 
+Warning message:
+In posthoc.kruskal.conover.test.default(c(99, 98, 99, 96, 98, 84,  :
+  Ties are present. Quantiles were corrected for ties.
+
+#Shannon index
+> kruskal.test(data=subp1$data, value ~ config3)
+
+	Pairwise comparisons using Conover's-test for multiple	
+                         comparisons of independent samples 
+
+data:  value by config3 
+
+            input   matrix-full matrix-hs root-full
+matrix-full 1.8e-10 -           -         -        
+matrix-hs   7.8e-09 0.44060     -         -        
+root-full   0.00117 1.2e-06     0.00011   -        
+root-hs     0.01324 8.9e-09     1.3e-06   0.44060  
+
+P value adjustment method: holm 
