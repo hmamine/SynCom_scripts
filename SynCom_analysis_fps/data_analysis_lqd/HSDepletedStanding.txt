@@ -1,0 +1,2 @@
+"HSDepletedStanding"	"rn"
+"Root60"	3.49686851381395	"Root60"

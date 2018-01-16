@@ -1,0 +1,15 @@
+Call:
+adonis(formula = DB.hcrot ~ config2) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)  
+config2    1 0.0008264 0.00082638  2.8526 0.22195  0.018 *
+Residuals 10 0.0028969 0.00028969         0.77805         
+Total     11 0.0037233                    1.00000         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
