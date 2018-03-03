@@ -1,6 +1,6 @@
 #customized scripts used for generating CTU count table in Hassani et al., 
 #M. Amine Hassani - ahassani@bot.uni-kiel.de
-#uncompress fastq files, the files can be downloaded from >>> need to specify permanent link at mpipz <<< 
+#uncompress fastq files 
 gzip -d  001_forward_reads.fastq.gz
 gzip -d  001_reverse_reads.fastq.gz
 gzip -d  001_barcodes.fastq.gz
